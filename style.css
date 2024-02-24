@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #84cdfa; /* Яркий фон для дня рождения */
+    font-family: 'Arial', sans-serif;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.image-container {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+	
+    height: 500px;
+    border-radius: 10px; /* Добавляем скругление к картинкам для праздничного вида */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #f76b8a; /* Ярко-розовый цвет кнопок */
+    border: none;
+    border-radius: 50px; /* Круглые кнопки */
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для кнопок */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fa9cb5;
+}
+
+#music-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffdd57; /* Ярко-желтый цвет кнопки */
+}
+
+#music-toggle:hover {
+    background-color: #ffee88;
+}
+
